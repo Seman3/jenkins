@@ -24,6 +24,7 @@ pipeline {
         stage("third step") {
             steps {
                 sh 'ssh root@debian2 \'ps -aux\''            
+            }
+        }
     }
-}
 }
